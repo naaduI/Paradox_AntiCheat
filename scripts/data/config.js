@@ -60,12 +60,13 @@ export default
             "enabled": true
         },
         "namespoofA": {
-            "enabled": true,
+            "enabled": false,
             "minNameLength": 3,
             "maxNameLength": 16
         },
         "namespoofB": {
-            "enabled": true,
+            "enabled": false
+   ,
             "regex": /[^A-Za-z0-9_ ]/
         },
         "bedrockValidate": {
