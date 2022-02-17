@@ -65,7 +65,8 @@ export default
             "maxNameLength": 16
         },
         "namespoofB": {
-            "enabled": true,
+            "enabled": false
+   ,
             "regex": /[^A-Za-z0-9_ ]/
         },
         "bedrockValidate": {
